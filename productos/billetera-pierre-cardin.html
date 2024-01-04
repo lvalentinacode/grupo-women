@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <link href="../src/css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,600&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="../script.js"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="navbar bg-pink-300">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle text-white hover:bg-transparent">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-pink-300 rounded-box w-52">
+                <li><a class="font-bold text-slate-700 hover:bg-transparent" href="../index.html">Inicio</a></li>
+                <li>
+                    <a class="font-bold text-slate-700 hover:bg-transparent" href="../productos.html">Productos</a>
+                    <ul class="p-2">
+                      <li><a class="font-bold text-slate-700 hover:bg-transparent" href="../hogar-deco.html">Hogar</a>
+                    <ul class="p-4">
+                        <li><a class="font-bold text-slate-700 hover:bg-transparent">Muebles</a></li>
+                        <li><a class="font-bold text-slate-700 hover:bg-transparent">Bazar</a></li>
+                        <li><a class="font-bold text-slate-700 hover:bg-transparent">Colchones y sommier</a></li>
+                    </ul></li>
+                      <li><a class="font-bold text-slate-700 hover:bg-transparent" href="../electrodomesticos.html">Electrodomésticos</a></li>
+                      <li><a class="font-bold text-slate-700 hover:bg-transparent" href="../electronica.html">Electrónica</a></li>
+                      <li><a class="font-bold text-slate-700 hover:bg-transparent" href="../deporte-recreacion.html">Deportes y recreación</a></li>
+                      <li><a class="font-bold text-slate-700 hover:bg-transparent" href="../marroquineria.html">Marroquineria</a></li>
+                    </ul>
+                  </li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center">
+          <a class="btn btn-ghost text-xl text-white hover:bg-transparent" href="../index.html"><img class="w-10 h-10" src="../src/img/logo/logo.png"></a>
+        </div>
+        <div class="navbar-end">
+        <a class="btn bg-pink-400 rounded-xl border-none mx-2 hidden md:flex text-white hover:bg-white hover:text-pink-300" href="https://api.whatsapp.com/send/?phone=%2B541156050554&text&type=phone_number&app_absent=0">Contáctanos<i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+
+      <div class="text-sm breadcrumbs p-5 md:p-10 flex flex-wrap">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li> 
+          <li><a href="../productos.html">Productos</a></li> 
+          <li><a href="../marroquineria.html">Marroquineria</a></li>
+          <li>Billetera Pierre Cardin</li>
+        </ul>
+      </div>
+
+      <div class="flex flex-wrap flex-row items-center align-center justify-center p-10 mt-2 md:mt-5">
+        <img class="w-96 h-80 rounded-xl shadow-2xl" src="../src/img/categories/marroquineria/billetera-pierre-cardin.png">
+        <div class="flex flex-wrap flex-col items-start mx-0 md:mx-10">
+            <h1 class="font-bold text-4xl text-slate-900 mt-5 md:mt-0">BILLETERA PIERRE CARDIN</h1>
+            <p class="font-medium text-xl text-slate-700 mt-2">Consultar disponibilidad.</p>
+            <a class="btn btn-sm bg-transparent border-pink-300 border-4 rounded-full mt-5 md:mt-10 p-5 text-base text-center content-center	hover:bg-pink-300 hover:text-white hover:border-pink-300">Consultar</a>
+        </div>
+      </div>
+
+      <div class="flex items-start justify-center align-center mx-0 md:mx-10 mt-5 md:mt-10">
+        <h1 class="text-lg font-bold text-slate-700">Explora nuestras categorías:</h1>
+      </div>
+      <div class="flex flex-wrap items-center justify-center align-center mx-0 md:mx-10 mt-5 md:mt-10">
+        <a class="bg-cover bg-center flex items-start justify-end text-right w-40 md:w-60 h-32 m:h-52 rounded-xl shadow-2xl mx-2 md:mx-5 mt-2 md:mt-0"
+        style="background-image: url(../src/img/categories-home/hogar-deco.jpg);" href="../hogar-deco.html">
+        <p class="text-right mr-2 mt-4 md:mr-5 md:mt-5 text-sm md:text-xl font-bold text-slate-700">Hogar & Deco</p>
+        </a>
+        <a class="bg-cover bg-center flex items-start justify-end text-right w-40 md:w-60 h-32 m:h-52 rounded-xl shadow-2xl mx-2 md:mx-5 mt-2 md:mt-0"
+        style="background-image: url(../src/img/categories-home/electrodomestico-pink.jpg);" href="../electrodomesticos.html">
+        <p class="text-right mr-2 mt-4 md:mr-5 md:mt-5 text-sm md:text-xl font-bold text-slate-700">Electrodoméstico</p>
+        </a>
+        <a class="bg-cover bg-center flex items-start justify-end text-right w-40 md:w-60 h-32 m:h-52 rounded-xl shadow-2xl mx-2 md:mx-5 mt-2 md:mt-0"
+        style="background-image: url(../src/img/categories-home/electronic-pink\ .png);" href="../electronica.html">
+        <p class="text-right mr-2 mt-4 md:mr-5 md:mt-5 text-sm md:text-xl font-bold text-slate-700">Electrónica</p>
+        </a>
+        <a class="bg-cover bg-center flex items-start justify-end text-right w-40 md:w-60 h-32 m:h-52 rounded-xl shadow-2xl mx-2 md:mx-5 mt-2 md:mt-0"
+        style="background-image: url(../src/img/categories-home/sport.png);" href="../deporte-recreacion.html">
+        <p class="text-right mr-2 mt-4 md:mr-5 md:mt-5 text-sm md:text-xl font-bold text-slate-700">Deportes & Recreación</p>
+        </a>
+        <a class="bg-cover bg-center flex items-start justify-end text-right w-40 md:w-60 h-32 m:h-52 rounded-xl shadow-2xl mx-2 md:mx-5 mt-2 md:mt-0"
+        style="background-image: url(../src/img/categories-home/marroquineria-pink.png);" href="../marroquineria.html">
+        <p class="text-right mr-2 mt-4 md:mr-5 md:mt-5 text-sm md:text-xl font-bold text-slate-700">Marroquineria</p>
+        </a>
+      </div>
+
+      <footer class="footer footer-center p-4 bg-pink-300 text-white mt-10">
+        <aside>
+            <img class="w-20 h-20" src="../src/img/logo/logo.png">
+            <p class="font-medium text-lg"><i class="fa-brands fa-whatsapp mr-2"></i>+54 9 11 5605-0554</p>
+            <p class="font-medium text-lg"><i class="fa-solid fa-location-dot mr-2"></i>Juan Bautista Lasalle 4172 - Gonzalez Catán</p>
+            <p class="font-medium text-lg">Copyright © 2023 - Grupo Women</p>
+        </aside>
+      </footer>
+
+</body>
+</html>
